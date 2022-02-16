@@ -23,11 +23,11 @@ function draw() {
   background("black");
 
 
-  if(keyIsDown(LEFT_ARROW)||mousePressedOver(left)||touches.lenght>0.02){
+  if(keyIsDown(LEFT_ARROW)||mousePressedOver(left)||touches.length>0.02){
     ball.x-=2
 touches = []
   }
-  if(keyIsDown(RIGHT_ARROW)||mousePressedOver(right)||touches.lenght>0.03){
+  if(keyIsDown(RIGHT_ARROW)||mousePressedOver(right)||touches.length>0.03){
     ball.x+=2
 touches = []
   }
